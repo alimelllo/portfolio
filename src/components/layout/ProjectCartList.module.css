@@ -1,0 +1,12 @@
+@media only screen and (max-width: 500px){
+    .list{
+    font-size: 13px;
+    
+}
+}
+
+@media only screen and (max-width: 350px){
+    .list{
+        font-size: 11px;
+    }      
+}

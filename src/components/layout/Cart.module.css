@@ -1,0 +1,44 @@
+
+  
+  .actions {
+    text-align: right;
+  }
+  .name{
+    margin: 1rem;
+  }
+  .total ul {
+margin-top: 2rem;
+  }
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    
+  }
+  
+  .image{
+margin-top: 1rem;
+border-radius: 20px;
+
+  }
+  .description{
+  color: rgb(202, 196, 196);
+  }
+  .logo{
+  float: left;
+    margin-left:3rem;
+    width:20%;
+  }
+  .actions .button--alt {
+    color: #8b8886;
+    border: 1px solid #e6dedb;  
+     color: white;
+  }
+  .actions .button--alt:hover{
+    background-color: #8b8886;
+  }
+ 

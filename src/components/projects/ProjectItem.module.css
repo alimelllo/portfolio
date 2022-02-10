@@ -1,0 +1,67 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+flex-direction: row;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(173, 170, 170);
+    transition: padding 0.5s;
+    color: rgb(163, 161, 161);
+    min-height: 4rem;
+    max-height:5rem;
+cursor: pointer;
+opacity: 0.7;
+  }
+
+
+  .meal:hover{
+    border-bottom: 2px solid rgb(20, 20, 20);
+    padding-top: 10px;
+    color:rgb(44, 43, 43);
+    padding-left: 15px;
+    cursor: pointer;
+   opacity: 1;
+  }
+.imagecontainer{
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.imageitem{
+  border: 50%;
+  box-shadow:  5px 5px 7px #e0e0e0,
+  -5px -5px 7px #ffffff;
+  margin-right: 1rem;
+  border-radius: 50%;
+  padding-top: 0.5rem;
+}
+
+  .logo{
+    
+    height: 3rem;
+  }
+  .view{
+    margin: 1rem;
+    width: 5rem;
+    height: 3rem;
+    background-color: rgb(4, 121, 255);
+    border: none;
+    color: whitesmoke;
+    border-radius: 10px;
+  }
+  .title{
+    max-height: 2px;
+  }
+  .meal h3 {
+    margin: 0 0 0.25rem 0;
+
+  }
+  
+  .description {
+    font-style: italic;
+  }
+
+  
+  

@@ -1,0 +1,13 @@
+.imageitem{
+    
+ 
+    margin-right: 2rem;
+       
+    padding-top: 0.5rem;
+  }
+  .logo{   box-shadow:  5px 5px 7px #e0e0e0,
+    -5px -5px 7px #ffffff;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+  }

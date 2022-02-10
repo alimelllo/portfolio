@@ -1,0 +1,74 @@
+.headerBody{
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    height: 5rem;
+    box-shadow: 0px 5px 10px #828282, 10px -10px 15px #ebebeb;
+    display: flex;
+}
+
+.home{width: 5%;
+    text-decoration: none;
+    color: rgb(192, 189, 189);
+    margin-top: 25px;
+margin-left: 20px;
+transition: font-size 0.3s;
+}
+.home:hover{
+    color:rgb(255, 255, 255);
+    font-size: 22px;
+}
+.navBody{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+    
+}
+
+.linkContainer{
+    flex:1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    
+}
+.gitcontainer{
+    padding-top: 1rem;
+  margin-right: 2rem;
+ 
+opacity:0.4;
+transition: opacity 0.5s;
+}
+.gitcontainer:hover{
+    opacity:1;
+    cursor: pointer;
+}
+.git{   
+    height:3rem;
+
+}
+.links{
+    text-decoration: none;
+    color: rgb(192, 189, 189);
+    transition: font-size 0.5s;
+}
+.links:hover{
+    color:rgb(255, 255, 255);
+    font-size: 22px;
+}
+@media only screen and (max-width: 400px) {
+    .navBody{
+        width: 50%;
+    }
+    .links {
+        font-size: 11px;
+       
+    }
+    .home{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 28px;
+  }}
